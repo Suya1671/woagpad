@@ -22,7 +22,7 @@
         };
 
         toolchain = pkgs.rust-bin.stable.latest.default.override {
-          extensions = ["rust-analyzer" "rust-src" "rustfmt"];
+          extensions = ["rust-analyzer" "rust-src" "rustfmt" "llvm-tools"];
           targets = ["thumbv6m-none-eabi"];
         };
       in
