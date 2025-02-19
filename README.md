@@ -4,6 +4,10 @@
 
 ![Woagpad](./assets/Woagpad-Render.png)
 
+The woagpad is a board I decided to create because a macropad
+kinda just sounds fun. I really also wanted the rotary encoders
+to be able to change volume and control media playback (although RMK doesn't support it yet. Eventually:tm:).
+
 ## Features
 
 - **Rust based firmware**: Through the power of [RMK](https://haobogu.github.io/rmk), the firmware is written in 100% Rust. Crab gaming :crab:
